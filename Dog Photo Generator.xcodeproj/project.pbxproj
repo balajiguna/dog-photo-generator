@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5E4DD7F2764F9EC004EA6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4DD7E2764F9EC004EA6B0 /* AppDelegate.swift */; };
+		D5E4DD812764F9EC004EA6B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4DD802764F9EC004EA6B0 /* SceneDelegate.swift */; };
+		D5E4DD832764F9EC004EA6B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4DD822764F9EC004EA6B0 /* ViewController.swift */; };
+		D5E4DD862764F9EC004EA6B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E4DD842764F9EC004EA6B0 /* Main.storyboard */; };
+		D5E4DD882764F9ED004EA6B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E4DD872764F9ED004EA6B0 /* Assets.xcassets */; };
+		D5E4DD8B2764F9ED004EA6B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E4DD892764F9ED004EA6B0 /* LaunchScreen.storyboard */; };
+		D5E4DD962764F9EE004EA6B0 /* Dog_Photo_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4DD952764F9EE004EA6B0 /* Dog_Photo_GeneratorTests.swift */; };
+		D5E4DDA12764F9EE004EA6B0 /* Dog_Photo_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4DDA02764F9EE004EA6B0 /* Dog_Photo_GeneratorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E4DD922764F9EE004EA6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E4DD732764F9EC004EA6B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E4DD7A2764F9EC004EA6B0;
+			remoteInfo = "Dog Photo Generator";
+		};
+		D5E4DD9D2764F9EE004EA6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E4DD732764F9EC004EA6B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E4DD7A2764F9EC004EA6B0;
+			remoteInfo = "Dog Photo Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5E4DD7B2764F9EC004EA6B0 /* Dog Photo Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Photo Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E4DD7E2764F9EC004EA6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5E4DD802764F9EC004EA6B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5E4DD822764F9EC004EA6B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5E4DD852764F9EC004EA6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5E4DD872764F9ED004EA6B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5E4DD8A2764F9ED004EA6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5E4DD8C2764F9ED004EA6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E4DD912764F9EE004EA6B0 /* Dog Photo GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog Photo GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E4DD952764F9EE004EA6B0 /* Dog_Photo_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_Photo_GeneratorTests.swift; sourceTree = "<group>"; };
+		D5E4DD972764F9EE004EA6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E4DD9C2764F9EE004EA6B0 /* Dog Photo GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog Photo GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E4DDA02764F9EE004EA6B0 /* Dog_Photo_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_Photo_GeneratorUITests.swift; sourceTree = "<group>"; };
+		D5E4DDA22764F9EE004EA6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E4DD782764F9EC004EA6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E4DD8E2764F9EE004EA6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E4DD992764F9EE004EA6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5E4DD722764F9EC004EA6B0 = {
+			isa = PBXGroup;
+			children = (
+				D5E4DD7D2764F9EC004EA6B0 /* Dog Photo Generator */,
+				D5E4DD942764F9EE004EA6B0 /* Dog Photo GeneratorTests */,
+				D5E4DD9F2764F9EE004EA6B0 /* Dog Photo GeneratorUITests */,
+				D5E4DD7C2764F9EC004EA6B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E4DD7C2764F9EC004EA6B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E4DD7B2764F9EC004EA6B0 /* Dog Photo Generator.app */,
+				D5E4DD912764F9EE004EA6B0 /* Dog Photo GeneratorTests.xctest */,
+				D5E4DD9C2764F9EE004EA6B0 /* Dog Photo GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E4DD7D2764F9EC004EA6B0 /* Dog Photo Generator */ = {
+			isa = PBXGroup;
+			children = (
+				D5E4DD7E2764F9EC004EA6B0 /* AppDelegate.swift */,
+				D5E4DD802764F9EC004EA6B0 /* SceneDelegate.swift */,
+				D5E4DD822764F9EC004EA6B0 /* ViewController.swift */,
+				D5E4DD842764F9EC004EA6B0 /* Main.storyboard */,
+				D5E4DD872764F9ED004EA6B0 /* Assets.xcassets */,
+				D5E4DD892764F9ED004EA6B0 /* LaunchScreen.storyboard */,
+				D5E4DD8C2764F9ED004EA6B0 /* Info.plist */,
+			);
+			path = "Dog Photo Generator";
+			sourceTree = "<group>";
+		};
+		D5E4DD942764F9EE004EA6B0 /* Dog Photo GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E4DD952764F9EE004EA6B0 /* Dog_Photo_GeneratorTests.swift */,
+				D5E4DD972764F9EE004EA6B0 /* Info.plist */,
+			);
+			path = "Dog Photo GeneratorTests";
+			sourceTree = "<group>";
+		};
+		D5E4DD9F2764F9EE004EA6B0 /* Dog Photo GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E4DDA02764F9EE004EA6B0 /* Dog_Photo_GeneratorUITests.swift */,
+				D5E4DDA22764F9EE004EA6B0 /* Info.plist */,
+			);
+			path = "Dog Photo GeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E4DD7A2764F9EC004EA6B0 /* Dog Photo Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E4DDA52764F9EE004EA6B0 /* Build configuration list for PBXNativeTarget "Dog Photo Generator" */;
+			buildPhases = (
+				D5E4DD772764F9EC004EA6B0 /* Sources */,
+				D5E4DD782764F9EC004EA6B0 /* Frameworks */,
+				D5E4DD792764F9EC004EA6B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dog Photo Generator";
+			productName = "Dog Photo Generator";
+			productReference = D5E4DD7B2764F9EC004EA6B0 /* Dog Photo Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E4DD902764F9EE004EA6B0 /* Dog Photo GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E4DDA82764F9EE004EA6B0 /* Build configuration list for PBXNativeTarget "Dog Photo GeneratorTests" */;
+			buildPhases = (
+				D5E4DD8D2764F9EE004EA6B0 /* Sources */,
+				D5E4DD8E2764F9EE004EA6B0 /* Frameworks */,
+				D5E4DD8F2764F9EE004EA6B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E4DD932764F9EE004EA6B0 /* PBXTargetDependency */,
+			);
+			name = "Dog Photo GeneratorTests";
+			productName = "Dog Photo GeneratorTests";
+			productReference = D5E4DD912764F9EE004EA6B0 /* Dog Photo GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5E4DD9B2764F9EE004EA6B0 /* Dog Photo GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E4DDAB2764F9EE004EA6B0 /* Build configuration list for PBXNativeTarget "Dog Photo GeneratorUITests" */;
+			buildPhases = (
+				D5E4DD982764F9EE004EA6B0 /* Sources */,
+				D5E4DD992764F9EE004EA6B0 /* Frameworks */,
+				D5E4DD9A2764F9EE004EA6B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E4DD9E2764F9EE004EA6B0 /* PBXTargetDependency */,
+			);
+			name = "Dog Photo GeneratorUITests";
+			productName = "Dog Photo GeneratorUITests";
+			productReference = D5E4DD9C2764F9EE004EA6B0 /* Dog Photo GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E4DD732764F9EC004EA6B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D5E4DD7A2764F9EC004EA6B0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D5E4DD902764F9EE004EA6B0 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D5E4DD7A2764F9EC004EA6B0;
+					};
+					D5E4DD9B2764F9EE004EA6B0 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D5E4DD7A2764F9EC004EA6B0;
+					};
+				};
+			};
+			buildConfigurationList = D5E4DD762764F9EC004EA6B0 /* Build configuration list for PBXProject "Dog Photo Generator" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E4DD722764F9EC004EA6B0;
+			productRefGroup = D5E4DD7C2764F9EC004EA6B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E4DD7A2764F9EC004EA6B0 /* Dog Photo Generator */,
+				D5E4DD902764F9EE004EA6B0 /* Dog Photo GeneratorTests */,
+				D5E4DD9B2764F9EE004EA6B0 /* Dog Photo GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E4DD792764F9EC004EA6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E4DD8B2764F9ED004EA6B0 /* LaunchScreen.storyboard in Resources */,
+				D5E4DD882764F9ED004EA6B0 /* Assets.xcassets in Resources */,
+				D5E4DD862764F9EC004EA6B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E4DD8F2764F9EE004EA6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E4DD9A2764F9EE004EA6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E4DD772764F9EC004EA6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E4DD832764F9EC004EA6B0 /* ViewController.swift in Sources */,
+				D5E4DD7F2764F9EC004EA6B0 /* AppDelegate.swift in Sources */,
+				D5E4DD812764F9EC004EA6B0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E4DD8D2764F9EE004EA6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E4DD962764F9EE004EA6B0 /* Dog_Photo_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E4DD982764F9EE004EA6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E4DDA12764F9EE004EA6B0 /* Dog_Photo_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E4DD932764F9EE004EA6B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E4DD7A2764F9EC004EA6B0 /* Dog Photo Generator */;
+			targetProxy = D5E4DD922764F9EE004EA6B0 /* PBXContainerItemProxy */;
+		};
+		D5E4DD9E2764F9EE004EA6B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E4DD7A2764F9EC004EA6B0 /* Dog Photo Generator */;
+			targetProxy = D5E4DD9D2764F9EE004EA6B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5E4DD842764F9EC004EA6B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E4DD852764F9EC004EA6B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5E4DD892764F9ED004EA6B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E4DD8A2764F9ED004EA6B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5E4DDA32764F9EE004EA6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5E4DDA42764F9EE004EA6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E4DDA62764F9EE004EA6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog Photo Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wolfython.Dog-Photo-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E4DDA72764F9EE004EA6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog Photo Generator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wolfython.Dog-Photo-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5E4DDA92764F9EE004EA6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog Photo GeneratorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wolfython.Dog-Photo-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog Photo Generator.app/Dog Photo Generator";
+			};
+			name = Debug;
+		};
+		D5E4DDAA2764F9EE004EA6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog Photo GeneratorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wolfython.Dog-Photo-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog Photo Generator.app/Dog Photo Generator";
+			};
+			name = Release;
+		};
+		D5E4DDAC2764F9EE004EA6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog Photo GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wolfython.Dog-Photo-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dog Photo Generator";
+			};
+			name = Debug;
+		};
+		D5E4DDAD2764F9EE004EA6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog Photo GeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wolfython.Dog-Photo-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dog Photo Generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E4DD762764F9EC004EA6B0 /* Build configuration list for PBXProject "Dog Photo Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E4DDA32764F9EE004EA6B0 /* Debug */,
+				D5E4DDA42764F9EE004EA6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E4DDA52764F9EE004EA6B0 /* Build configuration list for PBXNativeTarget "Dog Photo Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E4DDA62764F9EE004EA6B0 /* Debug */,
+				D5E4DDA72764F9EE004EA6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E4DDA82764F9EE004EA6B0 /* Build configuration list for PBXNativeTarget "Dog Photo GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E4DDA92764F9EE004EA6B0 /* Debug */,
+				D5E4DDAA2764F9EE004EA6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E4DDAB2764F9EE004EA6B0 /* Build configuration list for PBXNativeTarget "Dog Photo GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E4DDAC2764F9EE004EA6B0 /* Debug */,
+				D5E4DDAD2764F9EE004EA6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E4DD732764F9EC004EA6B0 /* Project object */;
+}
