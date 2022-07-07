@@ -42,16 +42,21 @@ class ViewController: UIViewController {
         Button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
     }
     
+//setting random color and generating random images
+    
     @objc func didTapButton(){
         getRandomPhoto()
-        
         view.backgroundColor = colors.randomElement()
     }
+    
     override func viewDidLayoutSubviews() {
         
         super.viewDidLayoutSubviews()
         view.addSubview(Button)
-        Button.frame = CGRect(x: 30, y: view.frame.size.height-150-view.safeAreaInsets.bottom, width: view.frame.size.width-60, height: 55)    }
+        Button.frame = CGRect(x: 30, y: view.frame.size.height-150-view.safeAreaInsets.bottom, width: view.frame.size.width-60, height: 55)
+        
+    }
+    
         
         func getRandomPhoto() {
             let urlString = "https://placedog.net/640/480?random"
